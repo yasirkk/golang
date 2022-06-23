@@ -8,7 +8,7 @@ import (
 	globals "auth/globals"
 	helpers "auth/helpers"
 )
-
+//LoginGetHandler comment
 func LoginGetHandler() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		session := sessions.Default(c)
